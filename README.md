@@ -1,1 +1,7 @@
-This is a basic reactjs setup with npm, webpack and babel
+# README
+
+This is a basic reactjs setup with the following setup:
+* npm
+* Webpack
+* Babel
+* Bootstrap
