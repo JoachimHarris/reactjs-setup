@@ -9,6 +9,7 @@ export class Header extends React.Component {
                 <div className="row container center-block">
                     <div className="col-md-6">
                         <div>
+                            <h1 className="headerTop__headline">Hi,</h1>
                             <h1 className="headerTop__headline">My name is Jay Harris</h1>
                             <p>I am a frontend developer and a designer.</p>
                             <p></p>
