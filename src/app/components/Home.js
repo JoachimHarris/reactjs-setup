@@ -4,7 +4,7 @@ export class Home extends React.Component {
     render() {
         return(
             <div>
-                <p>text</p>
+                <p></p>
             </div>
         )
     }
