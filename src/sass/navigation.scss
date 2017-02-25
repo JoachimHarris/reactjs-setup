@@ -1,0 +1,20 @@
+// 'Gloria Hallelujah' import from Googe fonts
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+// SASS Bootstrap media queries
+$screen-lg-min: 1200px;    // Large screens
+$screen-md-min: 992px;    // Medium screens
+$screen-sm-min: 768px;    // Small screens
+
+// Navigation styling
+.navigation {
+    height: 4em;
+    position: absolute;
+
+        &__logo {
+            font-family: 'Coming Soon', cursive;
+            color: #fff;
+            padding-top: 1em;
+            letter-spacing: 0.2em;
+        }
+}
