@@ -23,6 +23,10 @@ var config = {
             {
                 test: /\.scss$/,
                 loaders: ['style', 'css', 'sass']
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                loaders: ['file']
             }
         ]
     }
