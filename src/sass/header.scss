@@ -1,20 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+// 'Josefin Sans' import from Googe fonts
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
 
+// SASS Bootstrap media queries
+$screen-lg-min: 1200px;    // Large screens
+$screen-md-min: 992px;    // Medium screens
+$screen-sm-min: 768px;    // Small screens
+
+// Header styling
 .headerTop {
-    height: 40em;
+    height: 44em;
     width: 100vw;
+    padding-top: 7em;
     background: #DA22FF; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #3f408e, #A96ACE); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #6668c1, #B37EC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        &__headline {
+            font-family: 'Josefin Sans', sans-serif;
+            color: #fff;
+            padding: 0;
+            font-weight: 400;
+        }
+
+         &__subline {
+             font-family: 'Josefin Sans', sans-serif;
+             color: #fff;
+             padding: 0;
+             font-weight: 300;
+
+                 @media (max-width: $screen-lg-min) {}
+                 @media (max-width: $screen-sm-min) {}
+         }
 }
- .headerTop__headline {
-     font-family: 'Poiret One', cursive;
-     color: #fff;
-     padding: 0;
- }
 
  p {
-     font-family: 'Poiret One', cursive;
+     font-family: 'Josefin Sans', sans-serif;
      color: #cabfe0;
      font-size: 1.4em;
+     font-weight: 300;
  }
+
+.hair__image {
+    width: 36em;
+}
