@@ -15,6 +15,13 @@ $screen-sm-min: 768px;    // Small screens
     background: -webkit-linear-gradient(to left, #3f408e, #A96ACE); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #6668c1, #B37EC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+        @media (max-width: $screen-lg-min) {
+            height: 65em;
+        }
+        @media (max-width: $screen-sm-min) {
+            height: 65em;
+        }
+
         &__headline {
             font-family: 'Josefin Sans', sans-serif;
             color: #fff;
@@ -27,9 +34,6 @@ $screen-sm-min: 768px;    // Small screens
              color: #fff;
              padding: 0;
              font-weight: 300;
-
-                 @media (max-width: $screen-lg-min) {}
-                 @media (max-width: $screen-sm-min) {}
          }
 }
 

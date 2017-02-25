@@ -3,7 +3,8 @@ import {render} from 'react-dom';
 
 import { Navigation } from './components/Navigation';
 import { Header } from './components/Header';
-import { Home } from './components/Home';
+import { Mirror } from './components/Mirror';
+import { Footer } from './components/Footer';
 
 class App extends React.Component {
     render() {
@@ -11,7 +12,8 @@ class App extends React.Component {
             <div>
                 <Navigation />
                 <Header />
-                <Home />
+                <Mirror />
+                <Footer />
             </div>
         )
     }
