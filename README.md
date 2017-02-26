@@ -15,24 +15,24 @@ local machine for development and testing purposes.
 
 I assume that you have git setup on your local machine.
 
-1. Open up your terminal on your local machine
+1. Open up your terminal on your local machine.
 
-2. cd into your preferred project folder, where you want the project to be
+2. cd into your preferred project folder, where you want the project to be:
     - `cd folder/path`
 
 3. Clone the project on to your local machine with the command:
     - `git clone git@github.com:JoachimHarris/reactjs-setup.git`
 
-4. cd into the just cloned project folder on your local machine
+4. cd into the just cloned project folder on your local machine:
     - `cd foldername/on/cloned-repository`
 
-5. write
+5. In the terminal, type in the command:
     - `npm start`
 
 6. Open up your preferred browser and go to:
     - `localhost:8080`
 
-7. That is it. You should now be able to see the page up and running on the localhost.
+7. That is it. You should now be able to see the page up and running on the localhost. Every time you edit your cloned version it will hotreload in the browser, so you easily and fast can see your changes.
 
 ## Built With
 
