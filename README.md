@@ -1,12 +1,5 @@
 # README
 
-This is a basic reactjs setup with the following included:
-* npm
-* Webpack
-* Babel
-* Bootstrap
-
-
 # SmartMirror for hairdressers
 
 A smart mirror for hairdressers
