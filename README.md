@@ -2,7 +2,7 @@
 
 # SmartMirror for hairdressers
 
-A smart mirror for hairdressers
+A smart mirror for hairdressers - Experiment New Look, Makeup and Hair Virtually
 
 ## Live demo here
 
