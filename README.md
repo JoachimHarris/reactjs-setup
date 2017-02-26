@@ -18,10 +18,10 @@ I assume that you have git setup on your local machine.
 1. Open up your terminal on your local machine
 
 2. cd into your preferred project folder, where you want the project to be
+
 ```
 cd folder/path
 ```
--
 
 3. Clone the project on to your local machine with the command:
 ```
