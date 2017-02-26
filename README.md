@@ -21,6 +21,7 @@ I assume that you have git setup on your local machine.
 ```
 cd folder/path
 ```
+-
 
 3. Clone the project on to your local machine with the command:
 ```
