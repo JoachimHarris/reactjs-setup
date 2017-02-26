@@ -29,7 +29,7 @@ cd folder/path
 ```
 npm start
 ```
-* Open up your preffered browser and go to:
+* Open up your preferred browser and go to:
 ```
 localhost:8080
 ```
