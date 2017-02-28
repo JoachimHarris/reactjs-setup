@@ -7,3 +7,26 @@ $screen-md-min: 992px;    // Medium screens
 $screen-sm-min: 768px;    // Small screens
 
 // Mirror styling
+
+.mirror {
+    padding: 4em 0 4em 0;
+
+    &__headline--top {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #3f408e;
+        font-weight: 300;
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+
+    &__headline {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #3f408e;
+        font-weight: 300;
+    }
+
+    &__icon {
+        font-size: 4em;
+        color: #3f408e;
+     }
+}

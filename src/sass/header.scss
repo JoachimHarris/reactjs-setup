@@ -8,7 +8,7 @@ $screen-sm-min: 768px;    // Small screens
 
 // Header styling
 .headerTop {
-    height: 44em;
+    height: 40em;
     width: 100vw;
     padding-top: 7em;
     background: #DA22FF; /* fallback for old browsers */
@@ -16,16 +16,21 @@ $screen-sm-min: 768px;    // Small screens
     background: linear-gradient(to left, #6668c1, #B37EC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
         @media (max-width: $screen-lg-min) {
-            height: 65em;
+            height: 34em;
         }
+
+        @media (max-width: $screen-md-min) {
+            height: 50em;
+        }
+
         @media (max-width: $screen-sm-min) {
-            height: 65em;
+            height: 50em;
         }
 
         &__headline {
             font-family: 'Josefin Sans', sans-serif;
             color: #fff;
-            padding: 0;
+            padding-top: 2em;
             font-weight: 400;
         }
 

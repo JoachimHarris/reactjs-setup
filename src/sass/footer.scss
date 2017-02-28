@@ -10,12 +10,17 @@ $screen-sm-min: 768px;    // Small screens
 
 .footer {
     height: auto;
-    padding-top: 4em;
-    padding-bottom: 3em;
-    background-color: #9b59b6;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    background-color: #2D3039;
 
         &__icon {
-            font-size: 2em;
-            color: #cabfe0;
+            font-size: 1.8em;
+            color: #fff;
+        }
+
+        &__text {
+            color: #fff;
+            font-size: 1.2em;
         }
 }
