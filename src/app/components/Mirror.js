@@ -21,6 +21,10 @@ export class Mirror extends React.Component {
                                 className="ion-ios-book-outline mirror__icon"
                                 aria-hidden="true">
                             </span>
+                            <p className="mirror__sub-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore.
+                            </p>
                         </div>
                         <div className="col-md-4">
                             <h3 className="mirror__headline">
@@ -30,6 +34,10 @@ export class Mirror extends React.Component {
                                 className="ion-ios-checkmark-outline mirror__icon"
                                 aria-hidden="true">
                             </span>
+                            <p className="mirror__sub-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore.
+                            </p>
                         </div>
                         <div className="col-md-4">
                             <h3 className="mirror__headline">
@@ -39,6 +47,10 @@ export class Mirror extends React.Component {
                                 className="ion-ios-personadd-outline mirror__icon"
                                 aria-hidden="true">
                             </span>
+                            <p className="mirror__sub-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor incididunt ut labore.
+                            </p>
                         </div>
                     </div>
                 </div>
