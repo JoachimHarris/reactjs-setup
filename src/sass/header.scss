@@ -32,6 +32,19 @@ $screen-sm-min: 768px;    // Small screens
             color: #fff;
             padding-top: 2em;
             font-weight: 400;
+
+                @media (max-width: $screen-lg-min) {
+                    padding-top: 0em;
+                }
+
+                @media (max-width: $screen-md-min) {
+                    padding-top: 0em;
+                }
+
+                @media (max-width: $screen-sm-min) {
+                    padding-top: 0em;
+                }
+
         }
 
          &__subline {
