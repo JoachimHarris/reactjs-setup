@@ -5,6 +5,7 @@ import { Navigation } from './components/Navigation';
 import { Header } from './components/Header';
 import { Mirror } from './components/Mirror';
 import { Signup } from './components/Signup';
+import { Themirror } from './components/Themirror';
 import { Footer } from './components/Footer';
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
                 <Header />
                 <Mirror />
                 <Signup />
+                <Themirror />
                 <Footer />
             </div>
         )
