@@ -4,7 +4,7 @@
 
 A smart mirror for hairdressers - Experiment New Look, Makeup and Hair Virtually
 
-## Live demo here
+## Demo
 
 [Demopage](www.pagegoeshere.com)
 
