@@ -42,9 +42,15 @@ $screen-sm-min: 768px;    // Small screens
         width: 16em;
         margin-bottom: 2em;
         border: none;
-        border-bottom: 1px solid lightgrey;
+        border-bottom: 1px solid;
+        border-color: lightgrey;
         background: none;
         outline: none;
+    }
+
+    &__input--field:hover {
+        border-color: #34495e;
+        transition: border-color 0.35s ease-in-out;
     }
 
     &__btn-submit {
