@@ -26,13 +26,16 @@ I assume that you have git setup on your local machine.
 4. cd into the just cloned project folder on your local machine:
     - `cd foldername/on/cloned-repository`
 
-5. In the terminal, type in the command:
+5. Now type in the the command in your terminal:
+    - `npm install babel-core babel-loader --save-dev`
+
+6. In the terminal, type in the command:
     - `npm start`
 
-6. Open up your preferred browser and go to:
+7. Open up your preferred browser and go to:
     - `localhost:8080`
 
-7. That is it. You should now be able to see the page up and running on the localhost. Every time you edit your cloned version it will hotreload in the browser, so you easily and fast can see your changes.
+8. That is it. You should now be able to see the page up and running on the localhost. Every time you edit your cloned version it will hotreload in the browser, so you easily and fast can see your changes.
 
 ## Built With
 
